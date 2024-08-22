@@ -1,0 +1,24 @@
+{
+  "name": "nodejs-hw-01",
+  "version": "1.0.0",
+  "description": "",
+  "type": "module",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "dev": "nodemon src/index.js",
+    "generate": "node src/scripts/generateContacts.js",
+    "add-one": "node src/scripts/addOneContact.js",
+    "get-all": "node src/scripts/getAllContacts.js",
+    "count": "node src/scripts/countContacts.js",
+    "remove-all": "node src/scripts/removeAllContacts.js",
+    "remove-last": "node src/scripts/removeLastContact.js"
+  },
+  "keywords": [],
+  "author": "Kate Radyvoniuk <radyvoniukkate@gmail.com>",
+  "license": "ISC",
+  "devDependencies": {
+    "@faker-js/faker": "^8.4.1",
+    "nodemon": "^3.1.4"
+  }
+}
